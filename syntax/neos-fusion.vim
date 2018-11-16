@@ -13,6 +13,7 @@
 
 
 if exists("b:current_syntax")
+  echom "Current syntax already set, leaving ..."
   finish
 endif
 
@@ -20,6 +21,6 @@ endif
 syn keyword fusionLanguageKeywords prototype
 syn region fusionBlock start="{" end="}" fold transparent
 
-echom "Our syntax goes here"
+echom "Our syntax goes here."
 
 let b:current_syntax = "fusion"
