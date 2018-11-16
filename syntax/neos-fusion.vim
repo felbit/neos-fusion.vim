@@ -20,6 +20,6 @@ endif
 syn keyword fusionLanguageKeywords prototype
 syn region fusionBlock start="{" end="}" fold transparent
 
-
+echom "Our syntax goes here"
 
 let b:current_syntax = "fusion"
